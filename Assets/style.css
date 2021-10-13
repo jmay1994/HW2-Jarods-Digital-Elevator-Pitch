@@ -4,38 +4,49 @@
   margin: 0;
 }
 body {
-  background-color: #d9dcd6;
+  background-color: #6ea4bf;
 }
 .header {
-  padding: 20px;
   font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
     "Lucida Sans", Arial, sans-serif;
-  background-color: #2a607c;
+  background-color: #f8e5ee;
   color: #ffffff;
-  display: inline-block;
+  display: flex;
+  flex-direction: row;
   width: 100%;
+  padding: 20px;
+  align-items: center;
+  justify-content: space-between;
+  border-bottom: darkgray;
 }
 
 .header h1 {
   font-family: "Lucia Grande", "lucida sans", Arial;
-  color: rgb(230, 28, 248);
-  display: inline-block;
-  padding: 20px;
+  color: #2c365e;
+  display: flexbox;
+  font-size: 72px;
+  display: flex;
 }
 
 .header ol {
-  float: right;
   padding: 20px;
   list-style-type: none;
-  display: inline-block;
+  display: flex;
+  font-size: 32px;
+  text-align: right;
 }
 
 .header ol li {
-  display: inline-block;
+  display: inline-flex;
   margin-left: 25px;
   padding: 20px;
-  color: rgb(230, 28, 248);
+  text-align: right;
 }
+
+.header ol li a {
+  color: #6ea4bf;
+}
+
 .hero {
   background-image: <img src= "https://unsplash.com/photos/Z2c6ounF-iE" alt=
     "Digital-Workstation" >;
@@ -43,44 +54,132 @@ body {
   position: relative;
 }
 
-figcaption {
+.figcaption1 {
   align-self: flex-end;
-  font-size: 48px;
+  font-size: 100px;
   position: absolute;
   float: right;
   margin: 20px;
-  color: rgb(230, 28, 248);
+  color: darkgoldenrod;
   left: 80%;
   font-weight: bolder;
+  text-align: right;
+}
+section {
+  margin-top: 100px;
+  background-color: #f8e5ee;
+  align-content: left;
+  text-align: left;
+  font-size: 32px;
+  color: #484d6d;
+  font-weight: bold;
+  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+  width: 100%;
+  height: 185px;
+  display: inline-block;
+}
+div {
+  margin-top: 100px;
+  background-color: #f8e5ee;
+  align-content: center;
+  text-align: center;
+  justify-content: center;
+  font-size: 100px;
+  color: #484d6d;
+  font-weight: bolder;
+  font-family: Arial, Helvetica, sans-serif;
+  width: 100%;
+}
+
+.main {
+  color: red;
+  display: flexbox;
+  flex-direction: column;
+  justify-content: center;
+  margin-top: 50px;
+}
+
+.main .top-project1 {
+  color: #2c365e;
+  background-image: url(https://images.unsplash.com/photo-1580519542036-c47de6196ba5?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1742&q=80);
+  height: 300px;
+  text-align: center;
+  vertical-align: middle;
+  font-size: 36px;
+  font-weight: bolder;
+  font-family: Arial, Helvetica, sans-serif;
+  margin-top: 25px;
+}
+.main .top-project2 {
+  color: white;
+  background-image: url(https://images.unsplash.com/photo-1603290989526-572939369f38?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1740&q=80);
+  height: 100px;
+  text-align: center;
+  vertical-align: middle;
+  font-size: 24px;
+  font-weight: bold;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  margin-top: 12px;
+}
+.main .top-project3 {
+  color: white;
+  background-image: url(https://images.unsplash.com/photo-1587440871875-191322ee64b0?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1742&q=80);
+  height: 100px;
+  text-align: center;
+  vertical-align: middle;
+  font-size: 24px;
+  font-weight: bold;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  margin-top: 12px;
+}
+.main .top-project4 {
+  color: white;
+  background-image: url(https://images.unsplash.com/photo-1485550409059-9afb054cada4?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1530&q=80);
+  height: 100px;
+  text-align: center;
+  vertical-align: middle;
+  font-size: 24px;
+  font-weight: bold;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  margin-top: 12px;
 }
 
 .footer {
   padding: 20px;
   font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
     "Lucida Sans", Arial, sans-serif;
-  background-color: #2a607c;
+  background-color: #f8e5ee;
   color: #ffffff;
-  display: inline-block;
+  display: flex;
+  flex-direction: row;
   width: 100%;
-  margin-top: 100%;
+  margin-top: 40px;
+  align-items: center;
+  justify-content: space-between;
 }
 
 .footer h1 {
   font-family: "Lucia Grande", "lucida sans", Arial;
-  color: rgb(230, 28, 248);
-  display: inline-block;
+  color: #2c365e;
+  display: flex;
   padding: 20px;
+  font-size: 48px;
+  text-align: right;
 }
 
 .footer ol {
-  float: right;
+  font-size: 32px;
   padding: 20px;
   list-style-type: none;
-  display: inline-block;
 }
 
 .footer ol li {
-  display: inline-block;
+  font-size: 26px;
   margin-left: 25px;
   padding: 20px;
+  display: inline-flex;
+}
+
+.footer ol li a {
+  color: #6ea4bf;
 }
